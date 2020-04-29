@@ -20,7 +20,7 @@
     <hr width="90%">
     <?php
     //数据库连接
-    $con = @mysqli_connect("127.0.0.1","root","","test");
+    $con = @mysqli_connect("127.0.0.1","root","070506","messageboard");
     if(!$con){
         die("数据库连接错误".mysqli_connect_error());
     }
